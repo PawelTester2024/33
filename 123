@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .bug-report {
+            max-width: 600px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="bug-report">
+        <h2>Bug Report</h2>
+        <form>
+            <label for="bug-title">Bug Title:</label>
+            <input type="text" id="bug-title" name="bug-title" required>
+
+            <label for="bug-description">Bug Description:</label>
+            <textarea id="bug-description" name="bug-description" required></textarea>
+
+            <button type="submit">Submit Bug Report</button>
+        </form>
+    </div>
+</body>
+</html>
